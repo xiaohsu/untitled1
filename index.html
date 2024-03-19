@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TEAMFIGHT TACTICS</title>
+    <script src="https://kit.fontawesome.com/231e09f1bf.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="msapplication-TileColor" content="#b721ff">
+    <meta name="theme-color" content="#b721ff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap&text=0123456789" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('src/imgs/bg.jpg'); /* 设置背景图像 */
+            background-size: cover; /* 将背景图像填充整个页面 */
+            background-repeat: no-repeat; /* 禁止背景图像重复 */
+            background-position: center; /* 将背景图像居中 */
+            position: relative; /* 设置相对定位，以便绝对定位子元素相对于其进行定位 */
+        }
+        .content-wrapper {
+            text-align: center;
+            color: white; /* 设置文本颜色为白色 */
+        }
+        .title {
+            width: auto;
+            height: auto;
+            max-width: 80%; /* 设置标题最大宽度为页面宽度的80% */
+        }
+        p {
+            margin-top: 1em;
+            font-size: 24px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .social-icons {
+            position: fixed; /* 以固定位置放置 */
+            bottom: 20px; /* 與底部距離為20像素 */
+            width: 100%;
+            text-align: center; /* 文字居中對齊 */
+        }
+
+        /* icons的樣式 */
+        .social-icons i {
+            margin: 0 20px; /* 左右邊距 */
+            font-size: 40px; /* 文字大小 */
+            color: white; /* 文字顏色 */
+        }
+
+        /* 在图像上方添加文本的样式 */
+        .oops-text {
+            position: absolute; /* 绝对定位 */
+            top: 0; /* 与图像的上边缘对齐 */
+            left: 50%; /* 水平居中 */
+            transform: translate(-50%, 450%); /* 将元素向左移动50%和向上移动50%，以使其相对于图像进行定位 */
+            font-size: 36px; /* 文本大小 */
+            font-family: 'Nunito', sans-serif; /* 字体 */
+            color: white; /* 文本颜色 */
+        }
+    </style>
+</head>
+<body>
+<div class="content-wrapper">
+    <img src="src/imgs/fix.jpg" class="title">
+    <p>約德爾工兵正在搶救當中...</p>
+    <div class="oops-text">OOPS!</div> <!-- 添加文本 -->
+</div>
+
+<div class="social-icons">
+    <a href="https://www.facebook.com/TFTTW?locale=zh_TW">
+        <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/playtfttw/">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.youtube.com/@playtfttw">
+        <i class="fab fa-youtube"></i>
+    </a>
+</div>
+</body>
+</html>
